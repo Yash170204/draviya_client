@@ -10,17 +10,70 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-figtree: var(--font-figtree);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fff5e8;
+    --foreground: #121111;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-figtree);
+}
+
+.masked-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  -webkit-mask-image: radial-gradient(
+    ellipse 65% 50% at 50% 0%,
+    black 20%,
+    rgba(0, 0, 0, 0.6) 45%,
+    rgba(0, 0, 0, 0.25) 65%,
+    transparent 100%
+  );
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: radial-gradient(
+    ellipse 65% 50% at 50% 0%,
+    black 20%,
+    rgba(0, 0, 0, 0.6) 45%,
+    rgba(0, 0, 0, 0.25) 65%,
+    transparent 100%
+  );
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/hero-overlay.png");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  opacity: 0.85;
+}
+
+.shadow-screen {
+  box-shadow: 1px -10px 80px -10px #f8532e;
+  -webkit-box-shadow: 1px -10px 80px -10px #f8532e;
+  -moz-box-shadow: 1px -10px 80px -10px #f8532e;
 }
