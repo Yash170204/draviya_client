@@ -20,7 +20,7 @@ const FeaturesHeader: React.FC = () => {
           type="button"
           className="w-fit bg-linear-to-t from-zinc-900 to-zinc-700 border border-t-zinc-500 hover:from-zinc-900 hover:to-zinc-800 border-zinc-700 font-semibold text-white px-7 py-3 rounded-full transition-all duration-300"
         >
-          Join the revolution
+          Let's Dive In
         </button>
       </div>
     </div>

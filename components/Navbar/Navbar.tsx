@@ -169,7 +169,7 @@ const Navbar = () => {
             type="button"
             className="bg-linear-to-t from-zinc-800 to-zinc-700 border cursor-pointer hover:from-zinc-900 hover:to-zinc-800 border-zinc-700 font-semibold text-white px-5 py-2 rounded-full transition-all duration-300 relative z-50"
           >
-            Join the revolution
+            Join the Hype
           </button>
         </motion.div>
       </motion.div>

@@ -40,7 +40,7 @@ const FEATURES_DATA: FeatureItem[] = [
 
 const Features: React.FC = () => {
   return (
-    <section className="p-10 w-dvw mt-20">
+    <section className="p-2 w-dvw mt-20">
       <div className="h-fit w-full bg-[#0F0F0F] rounded-4xl px-20">
         <FeaturesHeader />
 

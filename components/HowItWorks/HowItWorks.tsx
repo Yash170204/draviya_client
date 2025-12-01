@@ -33,7 +33,7 @@ const HowItWorks = () => {
   useEffect(() => {
     const i = setInterval(
       () => setCurrentStep((prev) => (prev + 1) % STEPS.length),
-      10000
+      7000
     );
     return () => clearInterval(i);
   }, []);
@@ -77,7 +77,7 @@ const HowItWorks = () => {
                     className="absolute inset-0 bg-orange-400/70 -z-10 rounded-xl origin-left"
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
-                    transition={{ duration: 10, ease: "linear" }}
+                    transition={{ duration: 7, ease: "linear" }}
                   />
                 )}
 
