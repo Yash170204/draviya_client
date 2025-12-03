@@ -1,9 +1,9 @@
-import FAQ from "@/components/FAQ/FAQ";
-import Features from "@/components/Features/Features";
-import Footer from "@/components/Footer/Footer";
-import Hero from "@/components/Hero/Hero";
-import HowItWorks from "@/components/HowItWorks/HowItWorks";
-import Navbar from "@/components/Navbar/Navbar";
+import FAQ from "@/components/landing-page/faq/faq";
+import Features from "@/components/landing-page/features/features";
+import Footer from "@/components/landing-page/footer/footer";
+import Hero from "@/components/landing-page/hero/hero";
+import HowItWorks from "@/components/landing-page/how-it-works/how-it-works";
+import Navbar from "@/components/landing-page/navbar/navbar";
 
 export default function Page() {
   return (

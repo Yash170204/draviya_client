@@ -1,5 +1,5 @@
-import CTAButton from "./CTAButton";
-import NavLinks from "./NavLinks";
+import CTAButton from "./cta-button";
+import NavLinks from "./nav-links";
 import { motion, AnimatePresence } from "motion/react";
 
 const MobileMenu = ({ isOpen }: { isOpen: boolean }) => (

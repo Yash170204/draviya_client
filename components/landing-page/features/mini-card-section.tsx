@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureMiniCard from "./MiniCard";
+import FeatureMiniCard from "./mini-card";
 
 const MiniCardSection: React.FC = () => {
   return (

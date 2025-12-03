@@ -1,8 +1,8 @@
 "use client";
 
-import HeroLogos from "./HeroLogos";
+import HeroLogos from "./hero-logos";
 import { motion } from "motion/react";
-import HeroText from "./HeroText";
+import HeroText from "./hero-text";
 import Link from "next/link";
 
 const SOCIALS = [

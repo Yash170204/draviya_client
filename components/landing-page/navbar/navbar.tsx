@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import Logo from "./Logo";
-import BurgerButton from "./BurgerButton";
-import NavLinks from "./NavLinks";
-import CTAButton from "./CTAButton";
-import MobileMenu from "./MobileMenu";
+import Logo from "./logo";
+import BurgerButton from "./burger-button";
+import NavLinks from "./nav-links";
+import CTAButton from "./cta-button";
+import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);

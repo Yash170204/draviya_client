@@ -1,4 +1,4 @@
-import FloatingLogo from "./FloatingLogo";
+import FloatingLogo from "./floating-logo";
 
 const HeroLogos = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import FeaturesHeader from "./FeaturesHeader";
-import FeatureCard from "./FeatureCard";
-import Tagline from "./Tagline";
-import MiniCardSection from "./MiniCardSection";
+import FeaturesHeader from "./features-header";
+import FeatureCard from "./feature-card";
+import MiniCardSection from "./mini-card-section";
+import Tagline from "./tagline";
 
 interface FeatureItem {
   title: string;
