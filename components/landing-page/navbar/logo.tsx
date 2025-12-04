@@ -12,7 +12,11 @@ const Logo = () => (
       alt="logo"
       className="h-8 rounded-md"
     />
-    <img src="/images/logo/logo-name.jpeg" alt="logo-text" className="h-6" />
+    <img
+      src="/images/logo/logo-name-light.png"
+      alt="logo-text"
+      className="h-6"
+    />
   </motion.div>
 );
 

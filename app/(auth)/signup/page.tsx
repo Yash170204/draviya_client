@@ -7,8 +7,8 @@ import { toast } from "sonner";
 
 import { FieldGroup } from "@/components/ui/field";
 import { AuthCard } from "@/components/auth/auth-card";
-import { CustomFormField } from "@/components/auth/custom-form-field";
-import { signupSchema, SignupFormValues } from "@/lib/schema";
+import { CustomFormField } from "@/components/ui/custom-form-field";
+import { signupSchema, SignupFormValues } from "@/lib/schemas/auth-schema";
 
 const SignupPage = () => {
   const form = useForm<SignupFormValues>({

@@ -7,8 +7,8 @@ import { toast } from "sonner";
 
 import { FieldGroup } from "@/components/ui/field";
 import { AuthCard } from "@/components/auth/auth-card"; // Adjust path
-import { CustomFormField } from "@/components/auth/custom-form-field"; // Adjust path
-import { loginSchema, LoginFormValues } from "@/lib/schema"; // Adjust path
+import { CustomFormField } from "@/components/ui/custom-form-field"; // Adjust path
+import { loginSchema, LoginFormValues } from "@/lib/schemas/auth-schema"; // Adjust path
 
 const LoginPage = () => {
   // Initialize form with Zod Resolver
