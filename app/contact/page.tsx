@@ -57,7 +57,7 @@ const ContactPage: React.FC = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const recipient = "hello@draviya.xyz";
+    const recipient = "draviyaofficial@gmail.com";
     const subject = encodeURIComponent(
       `${formData.intent} from ${formData.name}`
     );
@@ -139,7 +139,7 @@ const ContactPage: React.FC = () => {
                     General & Partnerships
                   </p>
                   <p className="text-xl font-medium underline underline-offset-4 decoration-zinc-300 hover:decoration-[#FF2F00] transition-all cursor-pointer">
-                    hello@draviya.xyz
+                    draviyaofficial@gmail.com
                   </p>
                 </div>
               </div>

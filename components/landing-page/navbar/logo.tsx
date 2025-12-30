@@ -15,11 +15,13 @@ const Logo = () => (
         className="h-8 rounded-md"
       />
     </Link>
-    <img
-      src="/images/logo/logo-name-light.png"
-      alt="logo-text"
-      className="h-6"
-    />
+    <Link href="/">
+      <img
+        src="/images/logo/logo-name-light.png"
+        alt="logo-text"
+        className="h-6"
+      />
+    </Link>
   </motion.div>
 );
 

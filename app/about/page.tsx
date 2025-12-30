@@ -164,7 +164,7 @@ export default function AboutPage() {
             layer for the creator economy.
           </p>
           <a
-            href="#waitlist-email-input"
+            href="/#waitlist-email-input"
             className="text-sm sm:text-base lg:text-lg xl:text-xl border border-zinc-900 bg-linear-to-t from-[#FF2F00] to-[#f5775b] cursor-pointer hover:from-[#FF2F00] hover:to-[#FF2F00] font-semibold text-white px-4 sm:px-5 lg:px-6 xl:px-7 py-2 sm:py-2.5 lg:py-3 rounded-full transition-all duration-300 relative z-50 inline-block"
           >
             Join Waitlist
